@@ -1,23 +1,58 @@
-export const sidebarLinks = [
+export const navbarLinks = [
     {
-      imgURL: "/icons/home.svg",
+      imgURL: "#",
       route: "/",
-      label: "Home",
+      label: "Landing",
     },
     {
-      imgURL: "/icons/dollar-circle.svg",
-      route: "/my-banks",
-      label: "My Banks",
+      imgURL: "#",
+      route: "/artifacts",
+      label: "Artifacts",
     },
     {
-      imgURL: "/icons/transaction.svg",
-      route: "/transaction-history",
-      label: "Transaction History",
+      imgURL: "#",
+      route: "/boss",
+      label: "Boss",
     },
     {
-      imgURL: "/icons/money-send.svg",
-      route: "/payment-transfer",
-      label: "Transfer Funds",
+      imgURL: "#",
+      route: "/characters",
+      label: "Characters",
+    },
+    {
+      imgURL: "#",
+      route: "/consumables",
+      label: "Consumables",
+    },
+    {
+      imgURL: "#",
+      route: "/domains",
+      label: "Domains",
+    },
+    {
+      imgURL: "#",
+      route: "/elements",
+      label: "Elements",
+    },
+    {
+      imgURL: "#",
+      route: "/enemies",
+      label: "Enemies",
+    },
+    {
+      imgURL: "#",
+      route: "/materials",
+      label: "Materials",
+    },
+    {
+      imgURL: "#",
+      route: "/nations",
+      label: "Nations",
+    },
+    {
+      imgURL: "#",
+      route: "/weapons",
+      label: "Weapons",
     },
   ];
   

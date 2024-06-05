@@ -221,6 +221,10 @@ declare type SearchParamProps = {
   declare interface SiderbarProps {
     user: User;
   }
+
+  declare interface GenshinTypeList {
+    types: string[];
+  }
   
   declare interface RecentTransactionsProps {
     accounts: Account[];
