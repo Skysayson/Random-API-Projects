@@ -9,7 +9,7 @@ const NavBar = () => {
 
   return (
     <div className="navbar">
-      <section className="navbar-logo">LOGO</section>
+      <Link className="navbar-logo" href='/landing'>LOGO</Link>
       <section>
         <h1 className="navbar-wrapper">
           {navbarLinks.map((item) => {

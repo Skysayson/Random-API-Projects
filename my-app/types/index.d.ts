@@ -222,6 +222,54 @@ declare type SearchParamProps = {
     user: User;
   }
 
+  declare interface Upgrades {
+    name: string;
+    value: string;
+  } 
+
+  declare interface Talents {
+    name: string;
+    unlock: string;
+    description: string;
+    upgrades: Upgrades[];
+    type: string;
+  }
+
+  declare interface TalentsPassive {
+    name: string;
+    unlock: string;
+    description: string;
+    level: int;
+  }
+
+  declare interface ConstellationObj {
+    name: string;
+    unlock: string;
+    description: string;
+    level: 1
+  }
+
+  declare interface CharacterProps {
+    name: string;
+    title: string;
+    vision: string;
+    weapon: string;
+    nation: string;
+    affiliation: string;
+    rarity: int;
+    description: string;
+    skillTalents: Talents[];
+    passiveTalents: TalentsPassive[];
+    constellations: ConstellationObj[];
+    vision_key: string;
+    weapon_type: string;
+    id: string;
+  }
+
+  declare interface imageType {
+    card: string;
+  }
+
   declare interface GenshinTypeList {
     types: string[];
   }

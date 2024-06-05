@@ -382,11 +382,11 @@
 
   /* Navbar */
   .navbar {
-    @apply flex border justify-between w-screen h-fit border-red-600 max-md:hidden sm:p-2 xl:p-5
+    @apply flex border justify-between w-screen h-fit border-red-600 xl:p-5
   }
 
   .navbar-logo {
-    @apply 2xl:text-26 font-ibm-plex-serif text-[26px] font-bold text-black-1 max-xl:hidden;
+    @apply 2xl:text-[22px] font-ibm-plex-serif text-[26px] font-bold text-black-1;
   }
 
   .navbar-wrapper {
@@ -394,6 +394,11 @@
   }
 
   .navbar-content {
-    @apply p-2 hover:underline hover:cursor-pointer
+    @apply flex gap-3 items-center py-1 max-xl:hidden md:p-2 2xl:p-1 rounded-lg justify-center xl:justify-end cursor-pointer hover:underline
+  }
+
+  /*Charcter page*/
+  .character-content {
+    @apply flex w-full h-screen 
   }
 }

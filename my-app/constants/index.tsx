@@ -1,11 +1,6 @@
 export const navbarLinks = [
     {
       imgURL: "#",
-      route: "/",
-      label: "Landing",
-    },
-    {
-      imgURL: "#",
       route: "/artifacts",
       label: "Artifacts",
     },
